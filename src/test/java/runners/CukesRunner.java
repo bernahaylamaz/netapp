@@ -17,8 +17,8 @@ import org.junit.runner.RunWith;
 
         features = "./src/test/resources/features",//path od features folder
         glue = {"hooks", "stepdefinitions"},//path of the step definitions folder
-        tags = "",
-        dryRun = false
+        tags = "@US_001_TC_002",
+        dryRun = true
 )
 public class CukesRunner {
 }
